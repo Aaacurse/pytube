@@ -217,7 +217,7 @@ _token_timeout = 86400
 
 class InnerTube:
     """Object for interacting with the innertube API."""
-    def __init__(self, client='ANDROID', use_oauth=False, allow_cache=True,cache_dir = pathlib.Path(__file__).parent.resolve() / '__cache__'):
+    def __init__(self, client='WEB', use_oauth=False, allow_cache=True,cache_dir = pathlib.Path(__file__).parent.resolve() / '__cache__'):
         """Initialize an InnerTube object.
 
         :param str client:
